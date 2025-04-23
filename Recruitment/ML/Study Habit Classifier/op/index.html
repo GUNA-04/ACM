@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Habit Classifier</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Study Habit Classifier</h1>
+    <form id="studyForm">
+      <label>Hours Studied: <input type="number" name="hours" step="any" required></label>
+      <label>Focus Level (1–10): <input type="number" name="focus" step="any" required></label>
+      <label>Distraction Level (1–10): <input type="number" name="distraction" step="any" required></label>
+      <label>Active Time (in hours): <input type="number" name="active" required></label>
+      <button type="submit">Classify</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

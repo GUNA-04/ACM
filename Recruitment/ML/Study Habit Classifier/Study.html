@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Habit Classifier</title>
+    <link rel="stylesheet" href="Study.css">
+  
+</head>
+<body>
+    
+    <header>
+        <h1>Study Habit Classifier</h1>
+    </header>
+    <br>
+    <br>
+    <div>
+<table>
+    <tr>
+        <td> <h2>
+
+            Enter Your Study Habit details
+        </h2>
+        <form id="studyForm">
+            <label for="hours">Study Hours per Day:</label>
+            <input type="number" id="hours" name="hours" required>
+            <br><br>
+          
+            <label for="Focus">Focus level (1-10):</label>
+            <input type="number" id="Focus" name="focus" required>
+            <br><br>
+          
+            <label for="Distraction">Distraction level (1-10):</label>
+            <input type="number" id="Distraction" name="distraction" required>
+            <br><br>
+          
+            <label for="Select">When are you most active:</label>
+            <select id="Select" name="Select" required>
+              <option value="1">Morning</option>
+              <option value="2">Afternoon</option>
+              <option value="3">Evening</option>
+            </select>
+            <br><br>
+          
+            <button type="submit" id="submit">Classify Study Habits</button>
+          </form>
+          <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>

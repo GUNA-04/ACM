@@ -1,0 +1,33 @@
+h1{
+    color: green;
+    
+    text-align: center;
+}
+table,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+   
+}
+td h2{
+    padding-left: 10px;
+    text-align: center;
+}
+td{
+    padding: 12px;
+
+}
+button{
+    background-color: rgb(71, 232, 71);
+    color: white;
+    display: block;
+    margin: 0 auto;
+    
+
+}
+
+; 
+    
+table{
+    background-color: white;
+}
