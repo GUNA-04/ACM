@@ -6,7 +6,7 @@ import numpy as np
 
 app = FastAPI()
 
-# Allow CORS
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -14,7 +14,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Sample training data
+
 X = np.array([
     [5, 8, 2, 0],
     [2, 3, 8, 2],
